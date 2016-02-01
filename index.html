@@ -95,11 +95,12 @@
          <li><a href="https://github.com/timkim/phonegap-day-workshop-app-submission/wiki" target="_blank">Wiki Page of app submision, including step by step guidance in detail</a></li>
       </ul>
       <h3>Building an App with Ionic2</h3>
+      <p>Speaker: <a href="https://github.com/mhartington">Mike Hartington</a></p>
       <div style='margin: 20px'>
          <center><img src="http://ionic.io/img/2.png" width="80"/></center>
       </div>
       <p>
-         This talk was gave a little bit of background about Ionic 2 as well as AngularJS 2.
+         This talk gave a little bit of background about Ionic 2 as well as AngularJS 2.
          Ionic is a hybrid mobile sdk that aims to simplify and speed up development of mobile apps by using
          common web technology stack and Cordova to build hybrid mobile apps. Ionic 2 is just an upgrade from the previous version
          and the most notable change is the use of the updated AngularJS framework. AngularJS on the other hand is a Javascript
@@ -120,7 +121,7 @@
          <li><a href="https://www.npmjs.com/package/cordova-live-update" target="_blank">Plugin to update JS and other resources without submitting a new version to the respective appstore. Similar concept to SAP Aurora's UpdatePlugin</a></li>
       </ul>
       <p>To be finalized by Marco</p>
-      <h3>The Amaonz App</h3>
+      <h3>The Amazon App</h3>
       <p>Speaker: <a href="http://astro.mobify.com" target="_blank">Loki Meyburg and Shawn Jansepar</a></p>
       <p>One of the most interesting workshops. They demonstrate how to use Astra framework to wrap an existing multipage webpage to an iOS app with native experience. It is not just put the whole web site into a webview, Astra framework is built on top of Cordova, so all the cordova plugins work out of the box, unfortunately his framework doesn't work for single page. </p>
       <ul>
@@ -136,7 +137,9 @@
       </ul>
       <p>To be finalized by Marco</p>
       <h3>Cordova Plugins in Action</h3>
-      <p>To be done by Marc</p>
+      <p>Speakers: <a href="http://pgday.phonegap.com/us2016/speaker/brianrinaldi">Brian Rinaldi</a> &amp; <a href="http://pgday.phonegap.com/us2016/speaker/tjvantoll">TJ Vantoll</a></p>
+      <p>This talk showed how easy it is to use Telerik's AppBuilder to search and use Cordova plugins. This is more of a 50% sales pitch and 50% technical talk but the technical part isn't really that helpful as the demo app is super basic.</p>
+      <p>You can access the workshop directions <a href="https://github.com/remotesynth/pluginSampleApp">here</a></p>
       <h3>Embedding PhoneGap natively: The Hybrid Sweet Spot</h3>
       <p>Interesting workshop even topic is not really relevant for SAP Aurora development</p>
       <p>Goal of the workshop was to setup a native iOS project, embed CordovaWebView and using own plugin to capture a picture with the camera. This illustrates the easy bridge capabilities which is possible to leverage even in an native iOS app (Summary: Marco)</p>
@@ -145,7 +148,12 @@
          <li><a href="https://github.com/phonegap/phonegap-webview-ios" target="_blank">Webview iOS</a></li>
       </ul>
       <h3>Plugins are Everything, and Everything is a Plugin</h3>
-      <p>To be done by Marc</p>
+      <p>Speaker: <a href="http://purplecabbage.github.io">Jesse MacFadyen</a></p>
+      <p>This is the most interesting talk for me so far and really the most technical and in-depth of all the sessions I've been to.</p>
+      <p>Jesse has been working with cordova/phonegap since 2008 and has contributed a lot of plugins and fixes in the Cordova open-source project community</p>
+      <p>In this presentation, he talked about the inner workings of how a Cordova plugin works. He showed us how to quickly create a Cordova plugin and publish it in npm.</p>
+      <p>He also talked about cordova-medic which is a test tool designed to run all plugin tests and he create another tool called cordova paramedic that automates Jasmine test running.</p>
+      <p>You can view his slides <a href="http://purplecabbage.github.io/slides/pgd16Plugins/index.html">here</a>.</p>
       <h3>???</h3>
       <p>To be done by Xiaojun</p>
       <h3>Supercharge your Hybrid Apps with Microservices for Mobile</h3>
@@ -159,8 +167,12 @@
          <li><a href="https://www.soapui.org/" target="_blank">SOAPUI, a client to test/run webservices</a></li>
       </ul>
       <p>To be finalized by Marco</p>
-      <h3>Hands on: Create advanced apps with the Crosswalk runtime</h3>
-      <p>To be done by Marc</p>
+      <h3>Hands on: Create advanced apps with the <a href="https://crosswalk-project.org/">Crosswalk</a> runtime</h3>
+      <p>Speaker: <a href="https://twitter.com/darktears">Alexis Menard</a></p>
+      <p>This isn't really a hands-on talk because we basically just watch and listen to the speaker.</p>
+      <p>In this talk, the speaker gave us an overview of what Crosswalk is and also presented an overview of the technical architecture of Crosswalk.</p>
+      <p>In a nutshell, Crosswalk brings the latest Chromium to Android devices running from Android 4.0 up to provide bug fixes and performance improvements even for older devices.
+      This is really great for developers targeting devices from Android 4.0 and up. The only consequence is that your application binary size increases significantly.</p>
       <h3>Optimizing Performance and User Interface</h3>
       <p>To be done by Xiaojun</p>
       <h3>Visual Studio</h3>
@@ -208,9 +220,15 @@
       <h3>Automated App Testing: A pain or cure?</h3>
       <p>Speaker:&nbsp;<a href="https://twitter.com/mposchenrieder" target="_blank">Martin Poschenrieder (@mposchenrieder)</a></p>
       <p>Encouragement to use automated testing and a little bit advertising for <a href="https://testmunk.com/" target="_blank">TestMunk</a>&nbsp;(as speaker is CEO and founder of it).</p>
-      <p>Important remark that automated tests are most powerful when tey are used as part of your continous development. Development and test have to work together!</p>
+      <p>Important remark that automated tests are most powerful when they are used as part of your continous development. Development and test have to work together!</p>
       <p>Example for good solid test suite framework: Page Object Framework from Selenium</p>
       <p>Also have rather less, but stable tests!!!</p>
+      <p>Some ideas to get started in app testing automation:</p>
+      <ul>
+        <li>Run a simple test script that captures screenshots of all the screens</li>
+        <li>Run a monkey test</li>
+        <li>Build a simple smoke test</li>
+      </ul>
       <p>Further resources:&nbsp;<a href="http://blog.testmunk.com" target="_blank">blog.testmunk.com</a></p>
       <h3>Finding the sweet spot - blending the best of native and web</h3>
       <p>Speaker:&nbsp;<a href="http://twitter.com/shawnjan8">Shawn Jansepar</a>&nbsp;(@shawnjan8)</p>
