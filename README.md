@@ -51,7 +51,7 @@ $ phonegap create
 ```
 
 ```bash
-$ cd wwww
+$ cd www
 ```
 
 Replace content of www folder with content of this github repository
@@ -67,4 +67,4 @@ $ phonegap run ios
 ```
 
 ### Remarks
-The cotent of this github repository was created with the intentionn to be embedded into a cordova/phonegap application. Even it does not use any plugins the cordova.js file is referenced in index.html
+The cotent of this github repository was created with the intention to be embedded into a cordova/phonegap application. Even it does not use any plugins the cordova.js file is referenced in index.html
